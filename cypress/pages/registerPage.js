@@ -25,11 +25,11 @@ export class RegisterPage {
     }
     // SELECIONAR UN PAIS
     clicSelecCountry() {
-        cy.contains("div", "Selecciona un país", { timeout: 4000 }).click();
+        cy.contains("div","Selecciona un país", { timeout: 4000 }).click();
     }
     // SELECIONAR UN PAIS - Wait 4 segundos
     countryArgentina() {
-        cy.contains("Argentina", { timeout: 4000 }).click();
+        cy.contains("div","Argentina", { timeout: 4000 }).click();
     }
 
     // Métodos de interacción

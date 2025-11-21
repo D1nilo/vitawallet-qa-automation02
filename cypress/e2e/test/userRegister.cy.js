@@ -14,7 +14,7 @@ describe("Registro de usuario residente en Argentina", () => {
         // 1. Abrir la página principal (usa baseUrl de config)
         cy.visit("/");
 
-        // 2. Acceder a registrarme gratis
+        // 2. flujo de automatización de registro vita wallet - PERSONAL
         homePage.goToRegister();
         registerPage.clicStaff();
         registerPage.clicNext();
