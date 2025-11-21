@@ -1,0 +1,16 @@
+{
+  "name": "vitawallet-qa-automation",
+  "version": "1.0.0",
+  "description": "Framework de automatización E2E con Cypress + POM para Vita Wallet",
+  "scripts": {
+    "test:open": "cypress open",
+    "test": "cypress run --browser chrome",
+    "test:headless": "cypress run --browser chrome --headless"
+  },
+  "devDependencies": {
+    "cypress": "^13.7.0"
+  },
+  "dependencies": {
+    "cypress-terminal-report": "^7.3.3"
+  }
+}

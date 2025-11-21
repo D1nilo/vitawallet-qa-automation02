@@ -1,2 +1,2 @@
 # vitawallet-qa-automation02
-Gui + API
+Cypress + JS
